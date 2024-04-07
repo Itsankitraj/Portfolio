@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Rajput || Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d347e24bdf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img src="img/logoo.png" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+
+        <div class="header-text">
+            <p>Front-end Developer</p>
+            <h1>Hi,I'm <span>Ankit</span> Rajput<br> from India</h1>
+        </div>
+       </div>
+    </div>
+
+    <!--ABOUT-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user1.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm a third-year B.Tech student at the University of Lucknow, specializing in front-end development. 
+                        With a passion for crafting engaging user experiences, I thrive on bringing designs to life through code.
+                         Beyond coding, I pride myself on strong communication skills, enabling effective collaboration and clear articulation of ideas.
+                          Eager to contribute my skills and creativity to impactful projects, I'm dedicated to continuous learning and growth in the ever-evolving field of technology.</p>
+
+                          <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                          </div>
+                          <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/App Interfaces</li>
+                                <li><span>Web Developement</span><br>Web app Developement</li>
+                                <li><span>App Developement</span><br>Building Android/IOS apps</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-current</span><br>UI/UC Design training at Udemy</li>
+                                <li><span>2022-current</span><br>Intern at codealpha</li>
+                                <li><span>2024-current</span><br>None experience</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025</span><br>MBA from IIM Lucknow</li>
+                                <li><span>2021-2025</span><br>B.tech from University of Lucknow</li>
+                                <li><span>2020</span><br>Schooling From JDSVM,Kanpur</li>
+                                
+        
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design </h2>
+                    <p>We offer comprehensive web services tailored to meet your digital needs.
+                         From website design and development to hosting and maintenance,
+                         our team delivers customized solutions that elevate your online presence</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design </h2>
+                    <p>Our expert designers blend creativity with functionality to craft stunning user interfaces that captivate audiences and enhance user experiences. </p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design </h2>
+                    <p>We offer comprehensive web services tailored to meet your digital needs.
+                         From website design and development to hosting and maintenance,
+                         our team delivers customized solutions that elevate your online presence</p>
+                         <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--PORTFOLIOOOOO-->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The App connects you to the Talented people around the World.
+                        Download it From Play Store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The App connects you to the Talented people around the World.
+                        Download it From Play Store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The App connects you to the Talented people around the World.
+                        Download it From Play Store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+
+<!----------Contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ankuraj8726@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7607592310</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100041500750830"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/AnkitKu00757199"><i class="fa-brands fa-x-twitter"></i></a>
+
+                    <a href="https://www.instagram.com/im_ankit_rajput__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ankit-kumar-4344a3222/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="img/myy-cvv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &#169 Ankit Rajput. Made by <i class="fa-solid fa-heart"></i> Ankit</p>
+    </div>
+</div>
+
+
+
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tag");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+
+    </script>
+
+    <script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzqqmfySXhKdSYXdohVlHrzhH14r5Y2uYxrknDJMliMirtcU9tQ0okNyUZ8fIfrOuv0zw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
